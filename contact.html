@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Website with pure html and Css">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Web, Website, css3, zuri, software engineering.">
+  <meta name="author" content="Oghenemeru Avwemoya">
+  <meta name="viewport" content="width=device-width">
+  <title>contact | meru@zuri.com</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Let's go for a coffee</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOXHACK -->
+        <input type="checkbox" id="checkbox_toogle" />
+        <label for="checkbox_toogle" class="hamburger">&#9776</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action=''>
+      <fieldset>
+        <label>What's the Name: <input type="text" name="fullname" required /></label>
+        <label>Enter your Email: <input type="email" name="email" required /></label>
+        <label>Leave a Message:
+          <textarea name="bio" rows="8" cols="30" placeholder="Enter message..."></textarea>
+			  </label>
+      </fieldset>
+      <input type="submit" value="Send Message" />
+    </form>
+  </main>
+  <footer>
+    <div class="footer-content">&copy Designed by Oghenemeru Avwemoya 2022</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

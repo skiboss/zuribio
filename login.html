@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Website with pure html and Css">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Web, Website, css3, zuri, software engineering.">
+  <meta name="author" content="Oghenemeru Avwemoya">
+  <meta name="viewport" content="width=device-width">
+  <title>login | meru@zuri.com</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Login Here</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOXHACK -->
+        <input type="checkbox" id="checkbox_toogle" />
+        <label for="checkbox_toogle" class="hamburger">&#9776</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="services">
+           <a href="/">Services</a>
+           <!-- DROPDOWN MENU -->
+           <ul class="dropdown">
+             <li><a href="/">Dropdown 1 </a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 3</a></li>
+             <li><a href="/">Dropdown 4</a></li>
+           </ul>
+         </li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- HEADING -->
+    <div class="login-heading">
+      <h1 style="margin-bottom: 0;">Welcome Back</h1>
+    </div>
+    <div class="login">
+      <form id="login" method="get" action="mailto:axz@yahoo.com">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <br><br>
+        <label for="remember_me">
+
+        <input type="submit" value="Sign In" />
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">&copy Designed by Oghenemeru Avwemoya 2022</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
